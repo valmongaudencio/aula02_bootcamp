@@ -1,6 +1,15 @@
+# Import the 'pi' constant from the 'math' module to calculate the area of a circle
+from math import pi
+
+# Exercício 10: Área de um Círculo
+raio = float(input("Digite o raio do círculo: "))
+print(f"A área do círculo é:{pi*raio**2}")
+
+
+
 # Exercício 9: Conversão de Celsius para Fahrenheit
-celsius = float(input("Digite a temperatuca em Celsius: "))
-print(f"{celsius}°C é igual a {(celsius*9/5)+32}")  
+#celsius = float(input("Digite a temperatuca em Celsius: "))
+#print(f"{celsius}°C é igual a {(celsius*9/5)+32}")  
 
 # Exercício 8: Potência de um Número
 #base = float(input("Digite a base:"))
