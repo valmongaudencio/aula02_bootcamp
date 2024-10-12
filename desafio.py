@@ -1,7 +1,7 @@
 ### Desafio - Refatorar o projeto da aula anterior evitando Bugs!
 
 # 1) Solicita ao usuário que digite seu nome
-
+'''
 nome_usuario = input("Digite seu nome de usuário: ")
 
 if nome_usuario.isdigit():
@@ -13,9 +13,11 @@ elif len(nome_usuario) == 0:
 elif nome_usuario.isspace():
     print("Você digitou apenas espaço")
     exit()
-
+'''
 # 2) Solicita ao usuário que digite o valor do seu salário
 # Converte a entrada para um número de ponto flutuante
+
+print(float(input("Qual o valor de seu salário?")))
 
 # 3) Solicita ao usuário que digite o valor do bônus recebido
 # Converte a entrada para um número de ponto flutuante
