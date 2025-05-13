@@ -24,7 +24,7 @@ if isinstance(salario, float):
     print("Valor válido")
     exit()
 # 3) Solicita ao usuário que digite o valor do bônus recebido
-# Converte a entrada para um número de ponto flutuante
+ Converte a entrada para um número de ponto flutuante
 
 
 
